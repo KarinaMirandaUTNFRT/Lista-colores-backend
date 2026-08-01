@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { conectarDB } from './src/database/db.js'; 
-import colorRoutes from './routes/colorRoutes.js'; 
+import colorRoutes from './src/routes/color.routes.js'; 
 dotenv.config();
 
 const app = express();
